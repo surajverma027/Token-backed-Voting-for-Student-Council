@@ -1,0 +1,15 @@
+[package]
+name = "Token-backed-Votin-for-Student-Council"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x97d3839cf2c9f1d2c1dffaf82061eaa3861b6406120dcd842c2b6bf7ee5a7ba5"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
